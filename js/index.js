@@ -124,8 +124,9 @@ function closeModal(modalSelector) {
     const modal = document.querySelector(modalSelector),
 		  commentTextarea  = modal.querySelector('textarea[name="comment"]'),
 		  RadioButton = modal.querySelector('#green')
-    modal.classList.add('hide')
-    modal.classList.remove('show')
+
+	modal.style.opacity = '0'
+	modal.style.pointerEvents = 'none'
     document.body.style.overflow = ''
 
 	if (commentTextarea) {
@@ -140,8 +141,8 @@ function closeModal(modalSelector) {
 function openModal(modalSelector) {
     const modal = document.querySelector(modalSelector)
 
-    modal.classList.add('show')
-    modal.classList.remove('hide')
+	modal.style.opacity = '1'
+	modal.style.pointerEvents = 'auto'
     document.body.style.overflow = 'hidden'
 }
 
@@ -185,7 +186,7 @@ function modal(triggerSelector, modalSelector) {
 
     // делаем, что окно закрывалось через ESCAPE 
     document.addEventListener('keydown', function(e) {
-        if (e.code === 'Escape' && modal.classList.contains('show')) {
+        if (e.code === 'Escape' && modal.style.opacity === "1") {
             closeModal(modalSelector)
         }
     })
