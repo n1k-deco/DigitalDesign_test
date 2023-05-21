@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИнтерМаркет</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="light__theme">
+    <header class="header" id="top">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu__list list__reset flex">
+                    <li class="menu__item">
+                        <a class="menu__link navigate__category" href="#electronics">Электроника</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link navigate__category" href="#Appliances">Бытовые приборы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link navigate__category" href="#Furniture">Мебель</a>
+                    </li>
+                    <button class="switch__theme">
+                            <img src="./img/sun.svg" alt="Light mode" class="switch__theme__icon light">
+                            <img src="./img/moon.svg" alt="Dark mode" class="switch__theme__icon dark">
+                    </button>
+                </ul>
+            </nav> 
+        </div>      
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section">
+                <h1 class="section__title">
+                    ИнтерМаркет
+                </h1>
+                <h2 class="section__descr">
+                    Онлайн-гипермаркет техники и мебели
+                </h2>
+                <div class="section__bg"></div>
+            </section>
+
+            <section id="electronics" class="goods">
+                <h2 class="goods__title">
+                    Электроника
+                </h2>
+                <ul class="list__reset goods__list flex">
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                                <img src="img/electronics/Ноутбук Acer Aspire 7 A715-42G-R427 1920x1080.png" alt="Ноутбук Acer Aspire 7" class="goods__prewiew__image">
+                                <div class="goods__prewiew__text flex">
+                                    <time class="goods__time" id="Acer-Aspire-7"></time>
+                                    <h2 class="goods__prewiew__title">
+                                        Ноутбук Acer Aspire 7 A715-42G-R427
+                                    </h2>
+                                    <button data-modal data-product-id="Ноутбук Acer Aspire 7" class="btn btn__section">Купить</button>
+                                </div>
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Ноутбук ASUS TUF Gaming F15 FX506HC-HN002 1920x1080.png" alt="ASUS TUF Gaming F15" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="ASUS-TUF-Gaming-F15"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Ноутбук ASUS TUF Gaming F15 FX506HC-HN002
+                                </h2>
+                                <button data-modal data-product-id="Ноутбук ASUS TUF Gaming F15 FX506HC-HN002" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Ноутбук HONOR MagicBook 16 1920x1080.png" alt="HONOR MagicBook 16" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="HONOR-MagicBook-16"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Ноутбук HONOR MagicBook 16
+                                </h2>
+                                <button data-modal data-product-id="Ноутбук HONOR MagicBook 16" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Ноутбук HUAWEI MateBook D 16 1920x1200.png" alt="HUAWEI MateBook D 16" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="HUAWEI-MateBook-D-16"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Ноутбук HUAWEI MateBook 16
+                                </h2>
+                                <button data-modal data-product-id="Ноутбук HUAWEI MateBook D 16" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Ноутбук MSI GF63-218XRU 1920x1080.png" alt="MSI GF63-218XRU" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="MSI-GF63-218XRU"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Ноутбук MSI GF63-218XRU
+                                </h2>
+                                <button data-modal data-product-id="Ноутбук MSI GF63-218XRU" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Телевизор Polarline 24PL12TC LED.png" alt="Polarline 24PL12TC LED" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Polarline 24PL12TC LED"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Телевизор Polarline 24PL12TC LED
+                                </h2>
+                                <button data-modal data-product-id="Телевизор Polarline 24PL12TC LED" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Телевизор Samsung UE43AU7100U 2021 LED, HDR, QLED.png" alt="Samsung UE43AU7100U 2021" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Samsung-UE43AU7100U-2021"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Телевизор Samsung UE43AU7100U 2021 LED
+                                </h2>
+                                <button data-modal data-product-id="Телевизор Samsung UE43AU7100U 2021 LED" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Телевизор SkyLine 40LT5900 2019 LED.png" alt="SkyLine 40LT5900 2019" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="SkyLine-40LT5900-2019"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Телевизор SkyLine 40LT5900 2019 LED
+                                </h2>
+                                <button data-modal data-product-id="Телевизор SkyLine 40LT5900 2019 LED" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Телевизор TCL 50P637 2022 HDR, LED.png" alt="TCL 50P637 2022" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="TCL-50P637-2022"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Телевизор TCL 50P637 2022 HDR
+                                </h2>
+                                <button data-modal data-product-id="Телевизор TCL 50P637 2022 HDR" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/electronics/Телевизор Xiaomi TV A2 43 HDR, LED RU.png" alt="Xiaomi TV A2 43" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Xiaomi-TV-A2-43"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Телевизор Xiaomi TV A2 43 HDR
+                                </h2>
+                                <button data-modal data-product-id="Телевизор Xiaomi TV A2 43 HDR" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="Appliances" class="goods">
+                <h2 class="goods__title">
+                    Бытовые приборы
+                </h2>
+                <ul class="list__reset goods__list flex">
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Газовая варочная панель Bosch PGP6B5O93R.png" alt="Bosch PGP6B5O93R" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Bosch PGP6B5O93R"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Газовая варочная панель Bosch PGP6B5O93R
+                                </h2>
+                                <button data-modal data-product-id="Газовая варочная панель Bosch PGP6B5O93R" class="btn btn__section">Купить</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Газовая варочная панель MAUNFELD EGHE.43.3STS-EW.png" alt="MAUNFELD EGHE.43.3STS-EW" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="MAUNFELD EGHE.43.3STS-EW"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Газовая варочная панель MAUNFELD EGHE 43 3STS-EW
+                                </h2>
+                                <button data-modal data-product-id="Газовая варочная панель MAUNFELD EGHE 43" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Газовая варочная панель Simfer H45V30M411.png" alt="Simfer H45V30M411" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Simfer H45V30M411"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Газовая варочная панель Simfer H45V30M411
+                                </h2>
+                                <button data-modal data-product-id="Газовая варочная панель Simfer" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Газовая варочная панель Weissgauff HGG 640 XB.png" alt="Weissgauff HGG 640 XB" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Weissgauff HGG 640 XB"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Газовая варочная панель Weissgauff HGG 640 XB
+                                </h2>
+                                <button data-modal data-product-id="Газовая варочная панель Weissgauff" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Стиральная машина Beko WRE 55P2 BWW.png" alt="Beko WRE 55P2 BWW" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Beko WRE 55P2 BWW"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стиральная машина Beko WRE 55P2 BWW
+                                </h2>
+                                <button data-modal data-product-id="Стиральная машина Beko WRE" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Стиральная машина Candy SGV 44128TWB3.png" alt="Candy SGV 44128TWB3" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Candy SGV 44128TWB3"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стиральная машина Candy SGV 44128TWB3
+                                </h2>
+                                <button data-modal data-product-id="Стиральная машина Candy SGV" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Стиральная машина Hotpoint VMUL 501 B.png" alt="Hotpoint VMUL 501 B" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Hotpoint VMUL 501 B"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стиральная машина Hotpoint VMUL 501 B
+                                </h2>
+                                <button data-modal data-product-id="Стиральная машина Hotpoint" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Стиральная машина Indesit EWSD 51031 BK CIS.png" alt="Indesit EWSD 51031 BK CIS" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Indesit EWSD 51031 BK CIS"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стиральная машина Indesit EWSD 51031 BK CIS
+                                </h2>
+                                <button data-modal data-product-id="Стиральная машина Indesit EWSD" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Электрический духовой шкаф Beko BIE 21300 W.png" alt="Beko BIE 21300 W" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Beko BIE 21300 W"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Электрический духовой шкаф Beko BIE 21300 W
+                                </h2>
+                                <button data-modal data-product-id="Электрический духовой шкаф Beko BIE" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Электрический духовой шкаф Candy FCP 502 XE1.png" alt="Candy FCP 502 XE1" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Candy FCP 502 XE1"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Электрический духовой шкаф Candy FCP 502 XE1
+                                </h2>
+                                <button data-modal data-product-id="Электрический духовой шкаф Candy FCP" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/appliances/Электрический духовой шкаф Krona BREVE 45 WH.png" alt="Krona BREVE 45 WH" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Krona BREVE 45 WH"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Электрический духовой шкаф Krona BREVE 45 WH
+                                </h2>
+                                <button data-modal data-product-id="Электрический духовой шкаф Krona BREVE" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Furniture" class="goods">
+                <h2 class="goods__title">
+                    Мебель
+                </h2>
+                <ul class="list__reset goods__list flex">
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                                <img src="img/furniture/Диван прямой EDLEN Поло Эконом.png" alt="Диван прямой EDLEN Поло Эконом" class="goods__prewiew__image">
+                                <div class="goods__prewiew__text flex">
+                                    <time class="goods__time" id="Диван прямой EDLEN Поло Эконом"></time>
+                                    <h2 class="goods__prewiew__title">
+                                        Диван прямой EDLEN Поло Эконом
+                                    </h2>
+                                    <button data-modal data-product-id="Диван прямой EDLEN Поло Эконом" class="btn btn__section">Купить</button>
+                                </div>
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Диван прямой Арджуна Морис.png" alt="Диван прямой Арджуна Морис" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Диван прямой Арджуна Морис"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Диван прямой Арджуна Морис
+                                </h2>
+                                <button data-modal data-product-id="Диван прямой Арджуна Морис" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Диван прямой ИКЕА КЛИППАН.png" alt="Диван прямой ИКЕА КЛИППАН" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Диван прямой ИКЕА КЛИППАН"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Диван прямой ИКЕА КЛИППАН
+                                </h2>
+                                <button data-modal data-product-id="Диван прямой ИКЕА КЛИППАН" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Кресло ИКЕА ТУЛЬСТА.png" alt="Кресло ИКЕА ТУЛЬСТА" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Кресло ИКЕА ТУЛЬСТА"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Кресло ИКЕА ТУЛЬСТА
+                                </h2>
+                                <button data-modal data-product-id="Кресло ИКЕА ТУЛЬСТА" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Кресло мягкое Честер.png" alt="Кресло мягкое Честер" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Кресло мягкое Честер"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Кресло мягкое Честер
+                                </h2>
+                                <button data-modal data-product-id="Кресло мягкое Честер" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Кресло-кровать Salotti Альфа.png" alt="Кресло-кровать Salotti Альфа" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Кресло-кровать Salotti Альфа"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Кресло-кровать Salotti Альфа
+                                </h2>
+                                <button data-modal data-product-id="Кресло-кровать Salotti Альфа" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Стол кухонный ИКЕА ОЛМСТАД.png" alt="Стол кухонный ИКЕА ОЛМСТАД" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Стол кухонный ИКЕА ОЛМСТАД"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стол кухонный ИКЕА ОЛМСТАД
+                                </h2>
+                                <button data-modal data-product-id="Стол кухонный ИКЕА ОЛМСТАД" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Стол обеденный SV-Мебель СО-1.png" alt="Стол обеденный SV-Мебель СО-1" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Стол обеденный SV-Мебель СО-1"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стол обеденный SV-Мебель СО-1
+                                </h2>
+                                <button data-modal data-product-id="Стол обеденный SV-Мебель СО-1" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Стол обеденный TetChair Claire.png" alt="Стол обеденный TetChair Claire" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Стол обеденный TetChair Claire"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стол обеденный TetChair Claire
+                                </h2>
+                                <button data-modal data-product-id="Стол обеденный TetChair Claire" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Стул M CITY Comfort.png" alt="Стул M CITY Comfort" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Стул M CITY Comfort"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стул M CITY Comfort
+                                </h2>
+                                <button data-modal data-product-id="Стул M CITY Comfort" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                    <li class="goods__item ">
+                        <article class="goods__prewiew flex">
+                            <img src="img/furniture/Стул ИКЕА СТЕФАН.png" alt="Стул ИКЕА СТЕФАН" class="goods__prewiew__image">
+                            <div class="goods__prewiew__text flex">
+                                <time class="goods__time" id="Стул ИКЕА СТЕФАН"></time>
+                                <h2 class="goods__prewiew__title">
+                                    Стул ИКЕА СТЕФАН
+                                </h2>
+                                <button data-modal data-product-id="Стул ИКЕА СТЕФАН" class="btn btn__section">Купить</button>
+                            </div>    
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main flex">
+                <div class="footer__bg"></div>
+
+                <div class="footer__title flex">
+                    <p class="footer__name">
+                        <a class="navigate__category" href="#top">ИнтерМаркет</a>
+                    </p>
+                    <p class="footer__descr">
+                        Онлайн-гипермаркет <br> техники и мебели
+                    </p>
+                </div>
+
+                <div class="footer__nav">
+                    <ul class="footer__list list__reset flex">
+                        <li class="footer__item">
+                            <a class="footer__link navigate__category" href="#electronics">Электроника</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link navigate__category" href="#Appliances">Бытовые приборы</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link navigate__category" href="#Furniture">Мебель</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="btn__scroll" title="Наверх"></button>
+
+    <div class="modal hide">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form class="form flex">
+                    <label class="quantity__label" for="quantity">Количество:</label>
+                    <div class="counter flex">
+                        <button class="decrement__btn flex">-</button>
+                        <div class="counter__value flex">1</div>
+                        <button class="increment__btn flex">+</button>
+                    </div>
+                    
+                    <label class="color">Цвет:</label>
+                    <div class="custom__radio">
+                        <input class="custom__input" type="radio" id="green" name="color" value="зеленом" checked>
+                        <label class="custom__label" for="green">
+                            <span class="custom__span">
+                                <img src="./img/icons.png" alt="Checked Icon Green" />
+                            </span>
+                        </label>
+                        <input class="custom__input" type="radio" id="blue" name="color" value="синем">
+                        <label class="custom__label" for="blue">
+                            <span class="custom__span">
+                                <img src="./img/icons.png" alt="Checked Icon Blue" />
+                            </span>
+                        </label>
+                        <input class="custom__input" type="radio" id="yellow" name="color" value="желтом">
+                        <label class="custom__label" for="yellow">
+                            <span class="custom__span">
+                                <img src="./img/icons.png" alt="Checked Icon Yellow" />
+                            </span>
+                        </label>
+                        <input class="custom__input" type="radio" id="red" name="color" value="красном">
+                        <label class="custom__label" for="red">
+                            <span class="custom__span">
+                                <img src="./img/icons.png" alt="Checked Icon Red" />
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <label class="comment" for="comment">Комментарий:</label>
+                    <textarea class="comment__textarea" maxlength="2000" name="comment"></textarea>
+                    
+                    <button class="btn btn__modal" type="submit">Купить</button>
+                    <button class="modal__close" data-close type="button">&times;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
