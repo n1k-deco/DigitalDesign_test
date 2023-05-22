@@ -1,6 +1,27 @@
+@font-face {
+    font-family: 'GillSans';
+    src: local('GillSansC'), 
+        url('../fonts/GillSansC.woff2') format("woff2"),
+        url('../fonts/GillSansC.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GillSans';
+    src: local('GillSansC-Bold'), 
+        url('../fonts/GillSansC-Bold.woff2') format("woff2"),
+        url('../fonts/GillSansC-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color: var(--light-color);
     margin: 0 auto;
+    font-family: 'GillSans', sans-serif;
 }
 
 .container {
@@ -35,14 +56,12 @@ body {
 .light__theme {
     --light-color: #fff;
     --dark-color: #333;
-    --white: #fff;
     --black: #000;
 }
 
 .dark__theme {
     --light-color: #333;
     --dark-color: #fff;
-    --white: #000;
     --black: #fff;
 }
 
@@ -236,6 +255,7 @@ body {
 }
 
 .goods__prewiew__title {
+    font-weight: 300;
     font-size: 20px;
     line-height: 130%;
 }
@@ -246,7 +266,7 @@ body {
 	padding: 0 15px;
     border-radius: 5px;
 	line-height: 38px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
     cursor: pointer;
 	user-select: none;
@@ -417,7 +437,7 @@ body {
     right: 10px;
     font-size: 35px;
     opacity: .5;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
     background-color: transparent;
     cursor: pointer
